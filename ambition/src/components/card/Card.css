@@ -1,0 +1,60 @@
+.Card{
+     background-color: rgb(255, 255, 255);     
+    border: 2px solid rgb(53, 200, 233);
+    border-radius: 3%;
+    width: 363px;
+    height: auto;
+    margin-top: 10px;
+
+
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+} 
+
+.btn{
+   margin-bottom: 10px;
+}
+.img{
+    border-radius: 3% 3% 0% 0%;
+}
+
+li{
+    list-style: none;
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+.Course{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: blanchedalmond; */
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: black; */
+
+}
+.nav{
+
+    padding: 10px;
+}
+
+.courses{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.all-cards{
+    /* display: inline-block; */
+    left: 30px;
+}

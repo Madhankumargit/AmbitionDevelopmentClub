@@ -1,0 +1,62 @@
+.footer{
+    width: auto;
+    height: 100vh;
+    background-color: rgb(208, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    /* background-color: black; */
+}
+
+:root{
+    --BG-COLOR:grey;
+    --SHADOWS: 0 6px 10px -1px black;
+    --BORDER: 2px solid black;
+}
+
+
+.wrap{
+   /* background-color: aqua; */
+   width: auto;
+   height: auto;
+   display: grid;
+   align-items: center;
+}
+.content{
+   /* background-color: bisque; */
+   /* margin: 10% auto 10% auto; */
+}
+
+
+.column{
+/* background-color: rgb(143, 142, 144); */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.institute{
+
+}
+.column2{
+/* background-color: rgb(71, 81, 153); */
+
+}
+/*.row{
+display: flex;
+align-items: center;
+justify-content: center;
+}*/
+.address{
+    /* line-height: 2rem; */
+    /* margin-top: 0px; */
+    /* display: inline-block; */
+    /* top: -5px; */
+}
+.icons{
+    padding: 0;
+
+}
